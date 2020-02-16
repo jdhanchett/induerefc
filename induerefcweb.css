@@ -1,0 +1,54 @@
+body {
+  padding-top: 20px;
+  font-family: "Saira Semi Condensed" ,'Nanum Gothic', sans-serif;
+}
+
+.intro {
+  background-color: #ffe946;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+
+
+.secondHeading{
+  padding-bottom: 15px;
+}
+
+h1 {
+  letter-spacing: 4px;
+  padding-bottom:10px;
+  text-align: center;
+  color: #000000;
+  padding-top: 30px;
+  font-size: 200%;
+  transform: scaleY(1.2);
+  font-family: "PT Sans Narrow";
+}
+.dropdown-menu{
+  justify-content: center;
+  margin: 0 auto;
+  text: center;
+}
+
+
+div {
+  justify-content: center;
+  ;
+}
+
+div.card-body{
+  padding: 5px;
+}
+
+h5.card-title{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 80%;
+}
+
+p.card-text{
+  font-size: 80%;
+}
+
