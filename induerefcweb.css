@@ -1,10 +1,11 @@
 body {
   padding-top: 20px;
-  font-family: "Saira Semi Condensed" ,'Nanum Gothic', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .intro {
-  background-color: #ffe946;
+ background-color:white; 
   text-align: center;
   margin: 0 auto;
   
@@ -24,8 +25,34 @@ h1 {
   padding-top: 30px;
   font-size: 200%;
   transform: scaleY(1.2);
-  font-family: "PT Sans Narrow";
+  font-family: 'Noto Sans';
 }
+.dropdown-menu{
+  justify-content: center;
+  margin: 0 auto;
+  text: center;
+}
+
+
+div {
+  justify-content: center;
+  ;
+}
+
+div.card-body{
+  padding: 10px;
+}
+
+h5.card-title{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 80%;
+}
+
+p.card-text{
+  font-size: 80%;
+}
+
 .dropdown-menu{
   justify-content: center;
   margin: 0 auto;
@@ -45,10 +72,120 @@ div.card-body{
 h5.card-title{
   margin: 0 auto;
   text-align: center;
-  font-size: 80%;
+  font-size: 100%;
 }
 
 p.card-text{
   font-size: 80%;
 }
 
+
+
+#navbar-toggler-icon {
+  position: center;
+}
+
+.nav-item{
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 4px;
+  
+}
+
+.card-body{
+  font: "PT Sans Narrow";
+  text-transform: capitalize;
+}
+
+.dropdown-menu.show{
+  font-size: 90%;
+  border: none;
+  justify-content: center;  
+  
+}
+
+
+h4 {
+  font-size: 75%;
+  color: #9c9c9c;
+  padding-left: 7px;
+  padding-right: 7px;  
+  letter-spacing: 4px;
+}
+
+.nav-item{
+  padding-bottom: 15px;
+}
+
+a{
+  color: #9c9c9c;
+}
+
+a:hover{
+  color: black;
+}
+
+li:hover{
+  cursor: pointer;
+  color: black;
+}
+
+ul { 
+  font-size: 70%;
+  color: #9c9c9c;
+}
+
+#baselImg{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+#portraitImg{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  max-width: 998px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+.card {
+  font-family: 'Saira Semi Condensed';
+  color: #9c9c9c;
+  text-transform: capitalize;
+}
+
+h5{
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+#socialLinks a{
+width: 2em;
+padding-right: 15px;
+margin: 0 auto;
+
+}
+
+#socialLinks{    
+  padding-top: 20px; 
+}
+
+#info {
+  position: center;
+  text-align: center;
+}
+
+.social{
+  font-size: 70%;
+  margin: 0 auto;
+  font-style: bold;
+  justify-content: center;
+}
+
+img.card-img-top{
+  
+}
