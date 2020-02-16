@@ -163,29 +163,20 @@ h5{
   margin: 0 auto;
 }
 
-#socialLinks a{
-width: 2em;
-padding-right: 15px;
-margin: 0 auto;
-
-}
-
-#socialLinks{    
-  padding-top: 20px; 
-}
-
 #info {
   position: center;
   text-align: center;
 }
 
-.social{
-  font-size: 70%;
-  margin: 0 auto;
-  font-style: bold;
-  justify-content: center;
+
+#socialLinks{    
+  padding-top: 20px;
+  padding-left: 30px; 
+  position: center;
 }
 
-img.card-img-top{
-  
+.social{
+
+  font-style: bold;
+  justify-content: center;
 }
